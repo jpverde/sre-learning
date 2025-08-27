@@ -28,16 +28,18 @@ Each lab demonstrates concepts such as observability, automation, infrastructure
 
 ## Repository Structure
 
+```bash
 .
-├── day-1-ec2-cloudwatch-terraform/
-│ ├── main.tf
-│ ├── variables.tf
-│ ├── outputs.tf
-│ └── README.md # Lab-specific instructions
-├── Topics/ # Notes about concepts studied
-├── Resources/ # Books, docs, and articles referenced
-├── Projects/ # Ongoing implementations
+├── terraform/
+| ├── day1/
+| | ├── cpu_metrics.sh
+| │ ├── main.tf
+| | ├── outputs.tf
+| | ├── sns.tf
+| | ├── terraform.tf
+| │ └── variables.tf
 └── README.md # (this file)
+```
 
 ## Progress Tracking
 
