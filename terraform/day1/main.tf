@@ -52,6 +52,6 @@ resource "aws_cloudwatch_metric_alarm" "cpu_high" {
     InstanceId = aws_instance.monitoring_instance.id
   }
 
-  actions = [aws_sns_topic.alerts.arn]
-  ok_actions = [aws_sns_topic.alerts.arn]
+  alarm_actions = [aws_sns_topic.alerts.arn]
+  ok_actions    = [aws_sns_topic.alerts.arn]
 }
